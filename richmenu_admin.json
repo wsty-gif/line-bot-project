@@ -1,0 +1,36 @@
+{
+  "size": { "width": 2500, "height": 1686 },
+  "selected": false,
+  "name": "ADMIN_TAB",
+  "chatBarText": "管理メニュー",
+  "areas": [
+    {
+      "bounds": { "x": 0, "y": 0, "width": 2500, "height": 300 },
+      "action": {
+        "type": "richmenuswitch",
+        "richMenuAliasId": "tab_user",
+        "data": "switch-to-user"
+      }
+    },
+    {
+      "bounds": { "x": 0, "y": 300, "width": 833, "height": 693 },
+      "action": { "type": "message", "text": "シフト承認" }
+    },
+    {
+      "bounds": { "x": 833, "y": 300, "width": 833, "height": 693 },
+      "action": { "type": "message", "text": "勤怠一覧" }
+    },
+    {
+      "bounds": { "x": 1666, "y": 300, "width": 834, "height": 693 },
+      "action": { "type": "uri", "uri": "https://example.com/admin" }
+    },
+    {
+      "bounds": { "x": 0, "y": 993, "width": 1250, "height": 693 },
+      "action": { "type": "message", "text": "マスタ管理" }
+    },
+    {
+      "bounds": { "x": 1250, "y": 993, "width": 1250, "height": 693 },
+      "action": { "type": "message", "text": "集計出力" }
+    }
+  ]
+}

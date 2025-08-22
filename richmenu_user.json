@@ -1,0 +1,36 @@
+{
+  "size": { "width": 2500, "height": 1686 },
+  "selected": false,
+  "name": "USER_TAB",
+  "chatBarText": "メニュー",
+  "areas": [
+    {
+      "bounds": { "x": 0, "y": 0, "width": 2500, "height": 300 },
+      "action": {
+        "type": "richmenuswitch",
+        "richMenuAliasId": "tab_admin",
+        "data": "switch-to-admin"
+      }
+    },
+    {
+      "bounds": { "x": 0, "y": 300, "width": 833, "height": 693 },
+      "action": { "type": "message", "text": "お知らせ" }
+    },
+    {
+      "bounds": { "x": 833, "y": 300, "width": 833, "height": 693 },
+      "action": { "type": "uri", "uri": "https://example.com/manual" }
+    },
+    {
+      "bounds": { "x": 1666, "y": 300, "width": 834, "height": 693 },
+      "action": { "type": "message", "text": "問い合わせ" }
+    },
+    {
+      "bounds": { "x": 0, "y": 993, "width": 1250, "height": 693 },
+      "action": { "type": "message", "text": "勤怠" }
+    },
+    {
+      "bounds": { "x": 1250, "y": 993, "width": 1250, "height": 693 },
+      "action": { "type": "message", "text": "シフト提出" }
+    }
+  ]
+}
